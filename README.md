@@ -124,7 +124,7 @@ The Library Management System is a menu-driven application developed using C. It
 - Issue and return records maintained in files.
 - Previously saved records loaded when the application starts.
 - 
-11. Advantages
+**11. **Advantages****
   -----------------------------------------------
 - Reduces manual library record maintenance.
 - Provides efficient book searching and management.
@@ -133,7 +133,7 @@ The Library Management System is a menu-driven application developed using C. It
 - Automates issue and due date generation.
 - Improves book availability tracking.
 - 
-12. Applications
+**12. Applications**
   -----------------------------------
 - School and college libraries.
 - Small library record management.
@@ -150,6 +150,6 @@ The Library Management System is a menu-driven application developed using C. It
 - Database integration using MySQL or SQLite.
 - Graphical user interface development.
 - 
-14. Conclusion
+**14. Conclusion**
   -----------------------------------------------
 The Library Management System demonstrates the practical application of C programming, singly linked lists, pointers, dynamic memory allocation, and file handling. It simplifies book management, automates issue and return operations, generates dates automatically, and maintains persistent records, providing a foundation for further library management system enhancements. 
