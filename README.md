@@ -41,6 +41,7 @@ The Library Management System is a menu-driven application developed using C. It
 - Data Storage: Text files
  
 7. **System Architecture**
+   
                  +----------------------+
                  |    Start Application |
                  +----------------------+
@@ -93,8 +94,9 @@ The Library Management System is a menu-driven application developed using C. It
                  +----------------------+
                  | Continue or Exit     |
                  +----------------------+
+                 
   
- 8. Software Components
+ 9. Software Components
     --------------------------------------------------------------------
 - C Programming: Implements the application logic.
 - Singly Linked Lists: Dynamically manage book and issue records.
