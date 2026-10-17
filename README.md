@@ -94,14 +94,7 @@ The Library Management System is a menu-driven application developed using C. It
              |    Continue / Exit     |
              +------------------------+
 ```
-
-
-
-
-
-
-
-                 
+                
   
  9. Software Components
     --------------------------------------------------------------------
