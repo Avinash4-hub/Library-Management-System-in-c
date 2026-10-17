@@ -17,8 +17,8 @@ The Library Management System is a menu-driven application developed using C. It
 - Managing issue dates and due dates manually may lead to errors.
 - Maintaining records between application executions requires persistent storage.
   
-4. **Proposed Method**
-****-----------------------------------------------------------------------**
+4. **Proposed Method****
+------------------------------------------------------------------------------
 - Develop a menu-driven application using C.
 - Use singly linked lists for dynamic book and issue record management.
 - Implement book addition, modification, deletion, searching, and viewing.
@@ -41,33 +41,58 @@ The Library Management System is a menu-driven application developed using C. It
 - Data Storage: Text files
  
 7. **System Architecture**
-         User
-        |
-        v
-   Main Menu
-        |
-        v
-  C Application
-        |
-        v
-+---------------------+
-| Book Management     |
-| Issue Management    |
-| Return Management   |
-| Search and View     |
-+---------------------+
-        |
-        v
-  Singly Linked Lists
-        |
-        v
-    File Handling
-        |
-        v
-+---------------------+
-|     books.txt       |
-|     issues.txt      |
-+---------------------+
+                 +----------------------+
+                 |    Start Application |
+                 +----------------------+
+                            |
+                            v
+                 +----------------------+
+                 | Load Saved Book and   |
+                 | Issue Records         |
+                 +----------------------+
+                            |
+                            v
+                 +----------------------+
+                 |      Main Menu       |
+                 +----------------------+
+                            |
+                            v
+                 +----------------------+
+                 |  Select Operation    |
+                 +----------------------+
+                            |
+          +-----------------+------------------+
+          |                 |                  |
+          v                 v                  v
+ +----------------+ +----------------+ +----------------+
+ | Book Management| | Search and View| | Issue / Return |
+ | Add / Update / | | Books          | | Books          |
+ | Remove Books   | +----------------+ +----------------+
+ +----------------+         |                  |
+          |                 |                  |
+          +-----------------+------------------+
+                            |
+                            v
+                 +----------------------+
+                 |  Update Linked Lists |
+                 +----------------------+
+                            |
+                            v
+                 +----------------------+
+                 |    File Handling     |
+                 +----------------------+
+                            |
+                +-----------+-----------+
+                |                       |
+                v                       v
+        +---------------+       +---------------+
+        |   books.txt   |       |   issues.txt  |
+        +---------------+       +---------------+
+                            |
+                            v
+                 +----------------------+
+                 | Continue or Exit     |
+                 +----------------------+
   
  8. Software Components
     --------------------------------------------------------------------
