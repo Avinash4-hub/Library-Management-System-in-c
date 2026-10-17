@@ -140,13 +140,16 @@ The Library Management System is a menu-driven application developed using C. It
 - Book inventory management.
 - Book issue and return tracking.
 - C programming and data structures learning.*
+- 
 **13. Future Scope**
-
+  ----------------------------------------------
 - Student registration and management.
 - Automatic overdue fine calculation.
 - User authentication and access control.
 - Improved input validation.
 - Database integration using MySQL or SQLite.
 - Graphical user interface development.
+- 
 14. Conclusion
+  -----------------------------------------------
 The Library Management System demonstrates the practical application of C programming, singly linked lists, pointers, dynamic memory allocation, and file handling. It simplifies book management, automates issue and return operations, generates dates automatically, and maintains persistent records, providing a foundation for further library management system enhancements. 
