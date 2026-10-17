@@ -66,12 +66,12 @@ The Library Management System is a menu-driven application developed using C. It
           |                 |                  |
           v                 v                  v
  +----------------+ +----------------+ +----------------+
- | Book Management| | Search and View| | Issue / Return |
- | Add / Update / | | Books          | | Books          |
- | Remove Books   | +----------------+ +----------------+
- +----------------+         |                  |
-          |                 |                  |
-          +-----------------+------------------+
+  | Book Management| | Search and View| | Issue / Return |
+  | Add / Update / | | Books          | | Books          |
+  | Remove Books   | +----------------+ +----------------+
+  +----------------+         |                  |
+           |                 |                  |
+           +-----------------+------------------+
                             |
                             v
                  +----------------------+
@@ -94,6 +94,14 @@ The Library Management System is a menu-driven application developed using C. It
                  +----------------------+
                  | Continue or Exit     |
                  +----------------------+
+
+
+
+
+
+
+
+
                  
   
  9. Software Components
