@@ -116,6 +116,7 @@ The Library Management System is a menu-driven application developed using C. It
 7. The updated records are saved to files when the user selects Save Data or Exit.
  
 **10. Expected Output**
+
     ------------------------------------------------------------
 - Successful addition, updating, and removal of book records.
 - Book details displayed through search and view operations.
